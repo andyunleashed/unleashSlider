@@ -1,0 +1,33 @@
+/* Generic Container */
+.container {
+    width: 100%;
+}
+
+/* Actual Slider Element */
+.slider {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0;
+    list-style: none;
+}
+
+/* Slider Direct Child Element */
+.slider li {
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Slider First Direct Child */
+.slider li:first-child {
+    display: block;
+}
+
+/* Slider Images, always flex with width of slider */
+.slider li img {
+    width: 100%;
+    height: auto;
+}
