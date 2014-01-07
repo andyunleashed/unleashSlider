@@ -20,13 +20,17 @@
     THE SOFTWARE.
 */
 
-function unleashSlider(container) {
+function unleashSlider(container, interval, fadeTime) {
 
     var element = container;
 
-    var interval = 5000;
+    if(interval == null) {
+        var interval = 5000; // set the interval between fades
+    }
 
-    var fadeTime = 500;
+    if(fadeTime == null) {
+        var fadeTime = 500; // set the fade time
+    }
 
     slideOut(element);
 
