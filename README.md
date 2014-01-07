@@ -12,11 +12,11 @@ When calling the function use `$(document).ready(function() {});` to ensure that
 
 As a hand you can either copy the existing structure, or replicate something like the below;
 
-  `<ul class="slider">`
-      `<li><img src="#" alt="#"></li>`
-      `<li><img src="#" alt="#"></li>`
-      `<li><img src="#" alt="#"></li>`
-  `</ul>`
+    <ul class="slider">
+      <li><img src="#" alt="#"></li>
+      <li><img src="#" alt="#"></li>
+      <li><img src="#" alt="#"></li>
+    </ul>
 
 ### Initialisation
 
@@ -30,22 +30,15 @@ In this example I'm using a UL and list items, but you could have nested DIV's o
 
 2. Stick this function either inside `<script><script>` tags or inside your jquery file being included.
 
-`$(document).ready(function() {`
-
-  `unleashSlider('.slider', 3000, 500); // run the slider`
-  
-`}); // end doc ready`
-
+    `$(document).ready(function() { unleashSlider('.slider', 3000, 500); // run the slider });` 
 
 3. Note the parameters being passed to the unleashSlider function.
 
-      - The first is **.slider** - this is the class of your container element.
-
-      - The second, in the example "3000" is the **delay interval. (time in miliseconds between fades)** 
-
-      - The third "500" is the **fading time in miliseconds of the slides**
+- The first is **.slider** - this is the class of your container element.
+- The second, in the example "3000" is the **delay interval. (time in miliseconds between fades)** 
+- The third "500" is the **fading time in miliseconds of the slides**
 
 ### 4. ENJOY!
 
-    Made With love by [Andy Howells](http://lkd.to/andyunleash)
+Made With love by [Andy Howells](http://lkd.to/andyunleash)
 
