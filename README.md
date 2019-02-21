@@ -40,5 +40,5 @@ In this example I'm using a UL and list items, but you could have nested DIV's o
 
 ### 4. ENJOY!
 
-Made With love by [Andy Howells](http://lkd.to/andyunleash)
+Made With love by [Andy Howells](https://github.com/andyunleashedh)
 
